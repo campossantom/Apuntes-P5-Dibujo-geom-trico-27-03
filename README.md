@@ -28,5 +28,19 @@ El canvas funciona con un sistema de coordenadas /(X,Y) como un plano cartesiano
 * square(x,y,lado) cuadrado perfecto
 * triangle(x1,y1,x2,y2,x3,y3) triangulo y cada vertice se pone en la manesilla del reloj
 * quad(x1,y1,x2,y2,x3,y3,x4,y4) cuadrilatero irregular cada vertice en las manesillas del reloj
+
+### Figuras geométricas AVANZADAS
+* angleMode(Degrees)
+   * arc(x,y,diametro inicial,diametro final,start,stop)
+   * Los grados parten a las 15hrs en el sentido del reloj y siguen sentido horario en negativo.
+ 
+### Forma del borde / línea
+
+strokeCap();  
+Define la forma de la línea o borde de nuestras figuras
+ROUND  
+SQUARE  
+
+
   
 
