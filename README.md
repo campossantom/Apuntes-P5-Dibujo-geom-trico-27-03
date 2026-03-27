@@ -20,5 +20,13 @@ El canvas funciona con un sistema de coordenadas /(X,Y) como un plano cartesiano
 * Point/(x,y) 
 * Stroke Usado para bordes-líneas en valores RGB
     * Strokeweight Usado para asignar el tamaño de ese borde
-* Line/(x1,y1,x2,y2)
+* Line(x1,y1,x2,y2)
+* Rect(x1,y1,x2,y2)
+   * Fill(valores en RGB)
+* Ellipse(x,y1, alto, ancho)
+* Circle(x,y,radio)
+* square(x,y,lado) cuadrado perfecto
+* triangle(x1,y1,x2,y2,x3,y3) triangulo y cada vertice se pone en la manesilla del reloj
+* quad(x1,y1,x2,y2,x3,y3,x4,y4) cuadrilatero irregular cada vertice en las manesillas del reloj
+  
 
